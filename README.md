@@ -5,7 +5,7 @@ Fabflix is a full-stack, end-to-end web-database application, allowing customers
 
 The dynamic web pages were designed and implemented with HTML, CSS, and jQuery(JavaScript). 
 Fabflix was deployed on AWS EC2 Ubuntu with Apache Tomcat.
-There is also a backend MySql database that manages all user data and more than 100k movie records parsed from outside xml files.
+There is also a backend MySql database that manages all user data and more than 100k movie records parsed from outside xml sources.
 
 
 The website uses Ajax to interact with backend Java Servlets to extract/insert data from/to the database via JDBC.
