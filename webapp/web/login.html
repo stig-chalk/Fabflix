@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="login.css">
+    <title>Login</title>
+</head>
+<body>
+
+    <div class="topbar">
+        <p>Fabflix</p>
+    </div>
+    <h3>More than 9k movies, login to unlock!</h3>
+    <div class="loginbody">
+        <form id="login_form" method="post" action="#">
+            <div class="form-content">
+                <img src="usericon.png" height="28px" width="28px"><br>
+                <label>
+                    <input class="inputfield" name="username" placeholder="Username(email)" type="text">
+                </label>
+                <br>
+                <label>
+                    <input class="inputfield" name="password" placeholder="Password" type="password">
+                </label>
+                <br>
+                <input class="button" type="submit" value="Login">
+            </div>
+            <div class="login-type-cb">
+                <label>
+                    <input type="checkbox" name="login-type" value="employees"/>
+                    Employee
+                </label>
+                <label>
+                    <input type="checkbox" name="login-type" value="customers"/>
+                    Customer
+                </label>
+            </div><br>
+            <div id="recaptcha-element"></div>
+        </form>
+
+        <div id="login_failed_message"></div>
+    </div>
+
+
+    <!-- include jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- include our own JS file -->
+    <script src="./login.js"></script>
+    <!-- include recaptcha source -->
+    <script src='https://www.google.com/recaptcha/api.js?onload=reCaptchaCallback&render=explicit'></script>
+
+</body>
+</html>

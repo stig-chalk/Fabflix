@@ -1,0 +1,144 @@
+html {
+    /*background: rgb(107,0,214);*/
+    background: linear-gradient(rgba(107,0,214,1), rgba(69,0,147,1)) fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+body {
+    background: none;
+    margin: 0px;
+    box-shadow: black;
+    height: 100%;
+    color: white;
+    /*margin-top: 0.5%;*/
+    /*margin-bottom: 0.5%;*/
+}
+
+a {
+    color: gold;
+}
+a:hover {
+    color: gold;
+}
+
+.genre {
+    color: gold;
+    cursor: pointer;
+}
+.genre:hover {
+    color: gold;
+    text-decoration: underline;
+}
+
+.head {
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+
+.title {
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    padding-right: 5px;
+    padding-left: 5px;
+    font-size: 25px;
+    font-weight: bolder;
+    background-color: gold;
+    color: black;
+    border-radius: 10%;
+    font-family: "Gill Sans", sans-serif;
+    cursor: pointer;
+}
+
+.list {
+    margin: 10px 15% 1% 15%;
+    z-index: -1;
+}
+
+
+
+tbody {
+    font-family:georgia,garamond,serif;
+    font-size:14px;
+}
+
+.single {
+    background: rgba(250, 250, 250, 0.2);
+    margin: 50px 80px;
+    box-shadow: black;
+    height: 100%;
+}
+
+
+.topbar {
+    position: fixed;
+    top:0;
+    width: 100%;
+    display: flex;
+    left: 0;
+    padding: 0.5% 1% 0.5% 1%;
+    font-size: 15px;
+    background: black;
+    color: white;
+    vertical-align: center;
+}
+
+.cartbtn {
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 2px 2px 2px 2px;
+}
+.cartbtn:hover {
+    border-bottom-width: 0.5px;
+    border-bottom-style: solid;
+}
+
+#logout {
+    background: transparent;
+    cursor:pointer;
+    color:#CC2000;
+    font-size:15px;
+    padding: 0px 10px;
+    border: none;
+    font-weight: bold;
+}
+#logout:hover {
+    text-decoration:underline;
+}
+
+#user_welcome_message {
+    margin-bottom: auto;
+    margin-top: auto;
+    font-weight: bold;
+    margin-left: 10px;
+    width: auto;
+    flex-shrink:0;
+}
+
+
+.add-to-cart {
+    box-shadow:inset 0px 1px 0px 0px #9fcf4c;
+    background: #6b9c1d;
+    border-radius:1px;
+    border:1px solid #5d8619;
+    float: right;
+    cursor:pointer;
+    padding:4px 6px;
+    color:gold;
+    font-weight: bold;
+}
+.add-to-cart:hover{
+    background:linear-gradient(180deg, #3ca200, #80ba25);
+    background-color: #4f8800;
+}
+
+.add-to-cart>img {
+    width: 20px;
+    height: 20px;
+}

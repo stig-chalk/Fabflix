@@ -1,0 +1,241 @@
+html {
+    /*background: rgb(107,0,214);*/
+    background: linear-gradient(rgba(107,0,214,1), rgba(69,0,147,1)) fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+body {
+    background: none;
+    margin: 0px;
+    box-shadow: black;
+    height: 100%;
+    color: white;
+    /*margin-top: 0.5%;*/
+    /*margin-bottom: 0.5%;*/
+}
+
+title {
+    text-align: center;
+}
+
+a {
+    color: gold;
+}
+a:hover {
+    color: gold;
+}
+
+
+.title {
+    margin-top: auto;
+    margin-bottom: auto;
+    float: right;
+    text-align: right;
+    padding-right: 5px;
+    padding-left: 5px;
+    font-size: 25px;
+    font-weight: bolder;
+    background-color: gold;
+    color: black;
+    border-radius: 10%;
+    font-family: "Gill Sans", sans-serif;
+    cursor: pointer;
+}
+
+
+.items {
+    margin: 5% 0% 5% 0px;
+    z-index: -1;
+}
+tbody {
+    font-family:georgia,garamond,serif;
+    font-size:14px;
+}
+
+
+.total {
+
+    margin: 10px  15% 25px  15% ;
+    width: 70%;
+    background: transparent;
+    color: white;
+    vertical-align: center;
+
+}
+/*.totalprice {*/
+/*    margin-top: auto;*/
+/*    margin-bottom: auto;*/
+/*    font-size: 40px;*/
+/*    float: left;*/
+/*}*/
+.topbar{
+    position: fixed;
+    top:0;
+    width: 100%;
+    display: flex;
+    left: 0;
+    padding: 0.5% 1% 0.5% 1%;
+    font-size: 15px;
+    background: black;
+    color: white;
+    vertical-align: center;
+}
+.payment{
+    height: 40%;
+    overflow: auto;
+    vertical-align: center;
+    text-align: center;
+}
+.bottombar{
+    position: fixed;
+    bottom:0;
+    width: 100%;
+    left: 0;
+    padding: 0.5% 1% 0.5% 1%;
+    font-size: 15px;
+    background: black;
+    color: white;
+    vertical-align: center;
+}
+
+.cartbtn {
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 2px 2px 2px 2px;
+}
+.cartbtn:hover {
+    border-bottom-width: 0.5px;
+    border-bottom-style: solid;
+}
+
+
+.button {
+    box-shadow:inset 0px 1px 0px 0px #cf866c;
+    background: #d0451b linear-gradient(180deg, #d0451b, #bc3315);
+    border-radius:1px;
+    border:1px solid #942911;
+    display:inline-block;
+    cursor:pointer;
+    padding:6px 10px;
+}
+.button:hover {
+    background:linear-gradient(180deg, #bc3315, #d0451b);
+    background-color:#bc3315;
+}
+.button:active {
+    position:relative;
+    top:1px;
+}
+
+#logout {
+    background: transparent;
+    cursor:pointer;
+    color:#CC2000;
+    font-size:15px;
+    padding: 0px 10px;
+    border: none;
+    font-weight: bold;
+}
+#logout:hover {
+    text-decoration:underline;
+}
+
+#user_welcome_message {
+    margin-bottom: auto;
+    margin-top: auto;
+    font-weight: bold;
+    margin-left: 10px;
+    width: auto;
+    flex-shrink:0;
+}
+#cartDetails_table {
+    overflow: auto;
+    margin: 10px 15% 1% 15%;
+    display: inline-block;
+    width: 70%;
+}
+
+#cartDetails_single {
+    width: 100%;
+    color: white;
+    border-bottom-width:1px;
+    border-bottom-color: #a1a1a1;
+    border-bottom-style: dashed;
+    padding-bottom: 5px;
+}
+
+#cartDetails_single>a {
+    font-size: 30px;
+    font-weight: bold;
+    display: inline-block;
+    padding-right: 5%;
+}
+
+
+.unitPrice {
+    float:right;
+    font-size: 25px;
+    font-style: italic;
+    color: #cc0000;
+}
+
+#cartDetails_single>div {
+    padding-right: 10px;
+    padding-top: 10px;
+}
+#cartDetails_single>div>p {
+    display: inline-block;
+    padding-right: 20px;
+    font-size: 20px;
+}
+
+.backbtn {
+    cursor: pointer;
+    margin-left: 0px;
+    margin-right: 10px;
+    padding: 4px 4px 4px 4px;
+}
+.backbtn:hover {
+    filter: brightness(120%)
+}
+
+input {
+    display: inline-block;
+    outline: 0;
+    border-width: 0;
+    border-color: #7d7d7d;
+    background: rgba(16, 16, 16, 0.58);
+    color: white;
+    width: 200px;
+    text-align: center;
+}
+
+input[type="submit"] {
+    box-shadow:inset 0px 1px 0px 0px #cf866c;
+    background: #d0451b linear-gradient(180deg, #d0451b, #bc3315);
+    border-radius:1px;
+    border:1px solid #942911;
+    display:inline-block;
+    cursor:pointer;
+    padding:6px 10px;
+    cursor: pointer;
+    color: black;
+}
+input[type="submit"]:hover {
+    background:linear-gradient(180deg, #bc3315, #d0451b);
+    background-color:#bc3315;
+}
+
+::placeholder{
+    color: white;
+    text-align: center;
+}
+
+.total-price {
+    text-align: center;
+    font-size: 35px;
+    font-style: italic;
+    color: #3ca200;
+}

@@ -1,0 +1,163 @@
+html {
+    /*background: rgb(107,0,214);*/
+    background: linear-gradient(rgba(107,0,214,1), rgba(69,0,147,1)) fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+body {
+    background: none;
+    margin: 0px;
+    box-shadow: black;
+    height: 100%;
+    color: white;
+    /*margin-top: 0.5%;*/
+    /*margin-bottom: 0.5%;*/
+}
+
+/*a {*/
+/*    color: gold;*/
+/*}*/
+/*a:hover {*/
+/*    color: gold;*/
+/*}*/
+
+
+.title {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    float: right;
+    text-align: right;
+    padding-right: 5px;
+    padding-left: 5px;
+    font-size: 25px;
+    font-weight: bolder;
+    background-color: gold;
+    color: black;
+    border-radius: 10%;
+    font-family: "Gill Sans", sans-serif;
+    cursor: pointer;
+}
+
+
+.topbar {
+    position: fixed;
+    top:0;
+    width: 100%;
+    display: flex;
+    left: 0;
+    padding: 0.5% 1% 0.5% 1%;
+    font-size: 15px;
+    background: black;
+    color: white;
+    vertical-align: center;
+}
+.bottombar {
+    position: fixed;
+    bottom:0;
+    width: 100%;
+    right: 0;
+    padding: 0.5% 1% 0.5% 1%;
+    font-size: 15px;
+    background: black;
+    color: white;
+}
+.checkoutLink {
+    float:right;
+    padding-right: 5px;
+}
+
+.backbtn {
+    cursor: pointer;
+    margin-left: 0px;
+    margin-right: 10px;
+    padding: 4px 4px 4px 4px;
+}
+.backbtn:hover {
+    filter: brightness(120%)
+}
+.cartbtn {
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 2px 2px 2px 2px;
+}
+.cartbtn:hover {
+    border-bottom-width: 0.5px;
+    border-bottom-style: solid;
+}
+
+
+#logout {
+    background: transparent;
+    cursor:pointer;
+    color:#CC2000;
+    font-size:15px;
+    padding: 0px 10px;
+    border: none;
+    font-weight: bold;
+}
+#logout:hover {
+    text-decoration:underline;
+}
+
+#cartDetails_table {
+    margin: 10px 15% 1% 15%;
+    display: inline-block;
+    width: 70%;
+}
+
+.cartDetails_single {
+    width: 100%;
+    color: white;
+    border-bottom-width:1px;
+    border-bottom-color: #a1a1a1;
+    border-bottom-style: dashed;
+    padding-bottom: 5px;
+}
+
+a {
+    font-size: 25px;
+    display: inline-block;
+    padding-right: 5%;
+    color: gold;
+}
+a:hover {
+    color: gold;
+}
+
+.unitPrice {
+    float:right;
+    font-size: 25px;
+    font-style: italic;
+    color: #3ca200;
+}
+
+.quantity-div {
+    padding-right: 10px;
+    padding-top: 10px;
+}
+.quantity-p {
+    display: inline-block;
+    padding-right: 20px;
+    font-size: 20px;
+}
+input {
+    display: inline-block;
+    outline: 0;
+    border-width: 0;
+    border-color: #7d7d7d;
+    background: rgba(16, 16, 16, 0.58);
+    color: white;
+    width: 60px;
+    text-align: center;
+    font-size: 20px;
+}
+
+::placeholder{
+    color: white;
+    text-align: center;
+}
+
+

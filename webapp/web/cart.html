@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="cart.css">
+
+    <title>Shopping Cart</title>
+</head>
+<body class="single">
+
+<div class="topbar">
+    <img class="backbtn" src="leftPointer.png" height="35px" width="35px">
+    <div id="user_welcome_message"></div>
+    <img class="cartbtn" src="cart.png" height="35px" width="35px">
+    <button id="logout">Logout</button>
+</div>
+
+<div class = "items">
+    <h3 id="Shopping Cart" style="text-align:center; margin-top: 80px">Shopping Cart</h3>
+
+</div>
+
+<div id='cartDetails_table'>
+    <div id='cartDetails_single'>
+        <a href="single-movie.html?id=tt0395642">Loma Lynda: Episode II</a>
+        <p class="unitPrice">50$ ea</p>
+        <div class="quantity-div"><p class="quantity-p">Quantity: </p><input name="quantity" placeholder="1" type="number"></div>
+    </div>
+</div>
+
+
+<!--    <table id=cartDetails_table class="table">-->
+<!--        <thead>-->
+<!--        <tr>-->
+<!--            <th>Movie</th>-->
+<!--            <th>Quantity</th>-->
+<!--            <th>Price</th>-->
+<!--        </tr>-->
+<!--        </thead>-->
+
+<!--        <tbody id="cartDetails_table_body"></tbody>-->
+<!--    </table>-->
+
+<div class="bottombar">
+    <a class="checkoutLink" href="checkout.html"><p class="title">Process to Payment</p></a>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+
+<script src="cart.js"></script>
+
+</body>
+</html>

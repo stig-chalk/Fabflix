@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="checkout.css">
+
+    <title>CheckOut</title>
+</head>
+<body class="single">
+
+<div class="topbar">
+    <img class="backbtn" src="leftPointer.png" height="35px" width="35px">
+    <div id="user_welcome_message"></div>
+    <img class="cartbtn" src="cart.png" height="35px" width="35px">
+    <button id="logout">Logout</button>
+</div>
+
+<div class = "items">
+    <h3 id="Shopping Cart" style="text-align:center">Checking Out</h3>
+</div>
+
+
+<div id='cartDetails_table'>
+    <div id='cartDetails_single'>
+    </div>
+</div>
+
+<div class = "total">
+    <p class="total-price">Total Price: 100</p>
+</div>
+<div>
+    <h2 style="text-align: center">Payment Info</h2><br>
+    <form class="payment">
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname">
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname">
+        <label for="credit-card">Credit Card:</label>
+        <input type="text" id="credit-card" name="credit-card">
+        <label for="exp-date">Exp Date:</label>
+        <input type="date" id="exp-date" name="exp-date"><br><br>
+        <input type="submit" value="Place Order">
+    </form>
+</div>
+<!--<div class="bottombar">-->
+<!--    <p class="title">Place Order</p>-->
+<!--</div>-->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+
+<script src="checkout.js"></script>
+
+</body>
+</html>

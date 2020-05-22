@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="index.css">
+
+    <title>Movie List</title>
+</head>
+<body >
+
+
+<div class="topbar">
+    <p class="title">Fabflix</p>
+    <div id="user_welcome_message"></div>
+    <img class="cartbtn" src="cart.png" height="35px" width="35px">
+    <button id="logout">Logout</button>
+
+    <div class="titlesearch">
+        <button class="filterbtn button"><img src="filter.png" height="20px" width="20px"></button>
+        <button class="deletebtn"><img src="delete.png" height="10px" width="10px"></button>
+        <input class="searchTerm" name="title" placeholder="Movie Title" type="text" id="autocomplete">
+        <button class="titlesearchbtn"><img src="searchIcon.png" height="20px" width="20px"></button>
+    </div>
+
+    <div class="browse">
+        <button class="button dropbtn">
+            <img class="dropbtn_image" src="browse.png" height="20px" width="20px">
+        </button>
+    </div>
+</div>
+
+
+
+<!--    <form id="searchForm" method="post" action="#">-->
+<div class="filterdetail">
+        <label>
+            <input class="inputfield" name="director" placeholder="Director" type="text">
+        </label>
+        <br>
+        <label>
+            <input class="inputfield" name="year" placeholder="Year" type="number">
+        </label>
+        <br>
+        <label>
+            <input class="inputfield" name="actor" placeholder="Actor" type="text">
+        </label>
+        <br>
+</div>
+<!--        <input class="button searchbtn" type="submit" value="Search">-->
+<!--    </form>-->
+<div class="dropdown">
+    <div class="browse-title">
+        <p class="browse-type-title">Browse By Title</p>
+    </div>
+    <div class="browse-genre"></div>
+</div>
+
+<div class="options">
+    <p>Sort By:</p>
+    <select class="sort-by">
+        <option value="rating">Rating</option>
+        <option value="title">Movie Title</option>
+    </select>
+    <select class="asc-opt-rating">
+        <option value="asc">low-high</option>
+        <option value="desc">high-low</option>
+    </select>
+    <select class="asc-opt-title">
+        <option value="asc">*-z(asc)</option>
+        <option value="desc">z-*(desc)</option>
+    </select>
+    <p>Number of Movies Each Page: </p>
+    <select class="num-movies">
+        <option value=10>10</option>
+        <option value=25>25</option>
+        <option value=50>50</option>
+        <option value=100>100</option>
+    </select>
+</div>
+
+<div class="list">
+
+    <div class="movieItem">
+<!--        <a class="movieTitle" href="single-movie.html?id='tt0395642'">Loma Lynda: Episode II</a>-->
+<!--        <div>-->
+<!--            <p class="rating">9</p>-->
+<!--            <button class="add-to-cart">+ <img src="cart.png"> </button></div>-->
+<!--        <p>2004, Director: Jason Bognacki</p>-->
+<!--        <p> Genres: </p><a class="browse-genre-submit" id="9">Drama</a>-->
+<!--        <p> Cast: <a href="single-star.html?id=nm1531570">Sarah Ellquist</a>,<a href="single-star.html?id=nm1531164">Jason Bognacki</a>,<a href="single-star.html?id=nm1533402">Daniel DeBlanke</a>,<a href="single-star.html?id=nm1534558">Chris Mammone</a>-->
+<!--        </p>-->
+    </div>
+</div>
+
+<div class="page-num-sec">
+    <button id="prev-page">Prev</button>
+    <div class="page-num"></div>
+    <button id="next-page">Next</button>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.devbridge-autocomplete/1.4.7/jquery.autocomplete.min.js"></script>
+
+
+
+<script src="index.js"></script>
+
+</body>
+</html>

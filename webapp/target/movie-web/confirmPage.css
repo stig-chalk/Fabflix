@@ -1,0 +1,56 @@
+html {
+    /*background: rgb(107,0,214);*/
+    background: linear-gradient(rgba(107,0,214,1), rgba(69,0,147,1)) fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+body {
+    background: none;
+    margin: 10px 10% 10px 10%;
+    box-shadow: black;
+    height: 100%;
+    color: white;
+    display: block;
+}
+
+h3 {
+    font-size: 40px;
+    color: #90d22a;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 20px;
+    color: gold;
+    margin-bottom: 10px;
+}
+
+.movies {
+    width: 50%;
+    margin: 0;
+}
+
+p{
+    border-left: 6px solid green;
+    padding: 10px 10px 10px 10px;
+    background-color: rgba(0, 0, 0, 0.65);
+    border-bottom: gray solid 1px;
+    margin: 0;
+}
+
+button {
+    box-shadow:inset 0px 1px 0px 0px #cf866c;
+    background: #d0451b linear-gradient(180deg, #d0451b, #bc3315);
+    border-radius:1px;
+    border:1px solid #942911;
+    display:inline-block;
+    cursor:pointer;
+    padding:6px 10px;
+    margin-top: 10px;
+    font-size: 12px;
+}
+button:hover {
+    background: linear-gradient(180deg, #bc3315, #d0451b);
+    background-color: #bc3315;
+}

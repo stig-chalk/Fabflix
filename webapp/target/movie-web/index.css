@@ -1,0 +1,436 @@
+html {
+    /*background: rgb(107,0,214);*/
+    background: linear-gradient(rgba(107,0,214,1), rgba(69,0,147,1)) fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+body {
+    background: none;
+    margin: 0px;
+    box-shadow: black;
+    height: 100%;
+    color: white;
+    /*margin-top: 0.5%;*/
+    /*margin-bottom: 0.5%;*/
+}
+
+a {
+    color: gold;
+}
+a:hover {
+    color: gold;
+}
+
+.head {
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+h1 {
+    font-family: fantasy;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.title {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 0px;
+    text-align: center;
+    padding-right: 5px;
+    padding-left: 5px;
+    font-size: 25px;
+    font-weight: bolder;
+    background-color: gold;
+    color: black;
+    border-radius: 10%;
+    font-family: "Gill Sans", sans-serif;
+    cursor: pointer;
+}
+
+.list {
+    margin: 10px 15% 1% 15%;
+    z-index: -1;
+}
+
+tbody {
+    font-family:georgia,garamond,serif;
+    font-size:14px;
+}
+
+/*.columns {*/
+/*    font-size: 20px;*/
+/*    font-family: 'DejaVu Sans', Arial, Helvetica, sans-serif;*/
+/*}*/
+
+.single {
+    background: rgba(250, 250, 250, 0.2);
+    margin: 50px 80px;
+    box-shadow: black;
+    height: 100%;
+}
+
+/*#goback {*/
+/*    padding-top: 10px;*/
+/*    padding-right: 10px;*/
+/*}*/
+
+.topbar {
+    position: fixed;
+    top:0;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    left: 0;
+    padding: 5px 1% 5px 1%;
+    font-size: 15px;
+    background: black;
+    color: white;
+    vertical-align: center;
+}
+
+.cartbtn {
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 2px 2px 2px 2px;
+}
+.cartbtn:hover {
+    border-bottom-width: 0.5px;
+    border-bottom-style: solid;
+}
+.browse {
+    display: flex;
+    margin-left: 10px;
+    /*width: 80%;*/
+}
+
+/*.searchTerm {*/
+/*    width: 100%;*/
+/*    border: 3px solid #cc2000;*/
+/*    border-right: none;*/
+/*    padding: 5px;*/
+/*    border-radius: 5px 0 0 5px;*/
+/*    color: #db8266;*/
+
+/*}*/
+
+.button {
+    box-shadow:inset 0px 1px 0px 0px #cf866c;
+    background: #d0451b linear-gradient(180deg, #d0451b, #bc3315);
+    border-radius:3px;
+    border:1px solid #942911;
+    display:inline-block;
+    cursor:pointer;
+    padding:6px 10px;
+}
+.button:hover {
+    background:linear-gradient(180deg, #bc3315, #d0451b);
+    background-color:#bc3315;
+}
+.button:active {
+    position:relative;
+    top:1px;
+}
+
+#logout {
+    background: transparent;
+    cursor:pointer;
+    color:#CC2000;
+    font-size:15px;
+    padding: 0px 10px;
+    border: none;
+    font-weight: bold;
+    /*border-right: 2px rgba(128, 128, 128, 0.82) solid;*/
+
+}
+#logout:hover {
+    text-decoration:underline;
+}
+
+#user_welcome_message {
+    margin-bottom: auto;
+    margin-top: auto;
+    font-weight: bold;
+    margin-left: 10px;
+    width: auto;
+    flex-shrink:0;
+}
+
+.dropdown {
+    display: none;
+    right:0;
+    top:50px;
+    width: 300px;
+    padding: 10px 10px 10px 10px;
+    background-color: rgba(0, 0, 0, 0.9);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    text-align: center;
+    z-index: 0;
+    position: fixed;
+    height: 100%;
+    overflow-y:auto;
+}
+
+.inputfield {
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: #7d7d7d;
+    background: transparent;
+    color: white;
+    width: 90%;
+}
+
+.searchbtn {
+    width: 40%;
+}
+
+.dropbtn {
+    /*margin-left: auto;*/
+}
+
+.movieItem {
+    border-width: 2px;
+    border-bottom-width:1px;
+    border-bottom-color: #a1a1a1;
+    border-bottom-style: solid;
+    margin-top: 10px;
+}
+
+.movieItem>div {
+    display: block;
+    float: right;
+    width: 50px;
+}
+
+.rating {
+
+    float:right;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    font-style: italic;
+    font-weight: lighter;
+    color: #e22000;
+    font-size: 35px;
+}
+
+.add-to-cart {
+    box-shadow:inset 0px 1px 0px 0px #9fcf4c;
+    background: #6b9c1d;
+    border-radius:1px;
+    border:1px solid #5d8619;
+    float: right;
+    cursor:pointer;
+    padding:4px 6px;
+    color:gold;
+    font-weight: bold;
+}
+.add-to-cart:hover{
+    background:linear-gradient(180deg, #3ca200, #80ba25);
+    background-color: #4f8800;
+}
+
+.add-to-cart>img {
+    width: 20px;
+    height: 20px;
+}
+
+.movieTitle {
+    display: inline-block;
+    font-size: 30px;
+    font-family: 'DejaVu Sans', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#searchForm {
+    height: auto;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom-color: #7d7d7d;
+    border-bottom-width: 1px;
+    border-bottom-style: dashed;
+}
+
+.browse-title-submit {
+    background: transparent;
+    width: 20px;
+    height: 20px;
+    color: white;
+    margin: 5px 0px 5px 0px;
+    border: 0;
+    cursor:pointer;
+}
+.browse-title-submit:hover {
+    text-decoration: underline;
+}
+
+.browse-title {
+    height: auto;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom-color: #7d7d7d;
+    border-bottom-width: 1px;
+    border-bottom-style: dashed;
+}
+
+.browse-genre {
+    position: relative;
+    height: 60%;
+    display: block;
+}
+
+button.browse-genre-submit {
+    background: transparent;
+    border: 0;
+    color: white;
+    cursor: pointer;
+    display: inline-flex;
+    text-align: left;
+    padding: 5px 10px 5px 10px;
+    position: relative;
+}
+button.browse-genre-submit:hover {
+    text-decoration: underline;
+}
+
+.browse-type-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+
+.options > p {
+    display: inline-block;
+    color: white;
+    font-weight: bold;
+}
+
+select {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 0;
+}
+
+.num-movies {
+    display: inline-block;
+}
+
+.options {
+    margin: 80px 15% 1% 15%;
+}
+
+.page-num-sec {
+    display: inline-block;
+    text-align: center;
+    background: transparent;
+    margin: 10px 15% 5% 15%;
+    width: 70%;
+}
+.page-num-sec>button {
+    box-shadow:inset 0px 1px 0px 0px #cf866c;
+    background: #d0451b linear-gradient(180deg, #d0451b, #bc3315);
+    border-radius:1px;
+    border:1px solid #942911;
+    display:inline-block;
+    cursor:pointer;
+    padding:4px 6px;
+}
+.page-num-sec>button:hover {
+    background:linear-gradient(180deg, #bc3315, #d0451b);
+    background-color:#bc3315;
+}
+
+.page-num {
+    display: inline-block;
+    text-align: center;
+    width: 60%;
+}
+
+.single-page-num {
+    background: transparent;
+    color: gold;
+    border: 0;
+    cursor: pointer;
+}
+.single-page-num:hover {
+    text-decoration: underline;
+
+}
+
+.searchTerm {
+    border: 3px solid #942911;
+    border-left: none;
+    border-right: none;
+    padding: 5px;
+    height: auto;
+    width: 80%;
+
+    outline: none;
+    color: #d0451b;
+}
+
+.searchTerm:focus{
+    color: #d0451b;
+}
+
+.titlesearchbtn {
+    cursor: pointer;
+    border: 3px solid #942911;
+    border-left: none;
+    border-radius: 0 5px 5px 0;
+    color: white;
+    background-color: white;
+}
+
+.titlesearch {
+    display: flex;
+    /*flex-grow: 1;*/
+    margin-left: auto;
+    margin-right: 10px;
+    width: 40%;
+}
+
+.filterbtn {
+    border-radius: 3px 0 0 5px;
+    border: 3px solid #942911;
+    border-right: none
+
+}
+
+.deletebtn {
+    border: 3px solid #942911;
+    border-left: none;
+    border-right: none;
+    cursor: pointer;
+    color: white;
+    background-color: white;
+}
+
+.filterdetail {
+    display: none;
+    top:50px;
+    width: 150px;
+    padding: 10px 10px 10px 10px;
+    background-color: #1f1f1f;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    text-align: center;
+    z-index: 0;
+    position: fixed;
+    height: auto;
+    border-radius: 5px;
+}
+
+button:focus {outline:0;}
+
+.autocomplete-suggestions { border: none; background: #1f1f1f; overflow: auto; }
+.autocomplete-suggestion { padding: 8px 5px; white-space: nowrap; overflow: auto; border-bottom: rgba(128, 128, 128, 0.77) 1px solid; }
+.autocomplete-selected { background: #404040; }
+.autocomplete-suggestions strong { font-weight: normal; color: #d0451b; }
+.autocomplete-group { padding: 2px 5px; }
+.autocomplete-group strong { display: block; border-bottom: 1px solid #000; }

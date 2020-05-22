@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard</title>
+    <link rel="stylesheet" type="text/css" href="_dashboard.css">
+</head>
+<body>
+<div class="topbar">
+    <p class="title">Fabflix</p>
+    <div id="user_welcome_message"></div>
+    <button id="logout">Logout</button>
+    <button class="button insertbtn">Insert</button>
+</div>
+
+<div class="dropdown">
+    <form class="insert-star">
+        <label>
+            <input class="inputfield req" name="name" placeholder="Star Name" type="text">
+        </label>
+        <br>
+        <label>
+            <input class="inputfield" name="birth-year" placeholder="Birth Year (Optional)" type="number">
+        </label>
+        <br>
+        <input class="button searchbtn" type="submit" value="Add Star">
+    </form>
+    <form class="insert-movie">
+        <label>
+            <input class="inputfield req" name="title" placeholder="Movie Title" type="text">
+        </label>
+        <br>
+        <label>
+            <input class="inputfield req" name="year" placeholder="Release Year" type="number">
+        </label>
+        <br>
+        <label>
+            <input class="inputfield req" name="director" placeholder="Director" type="text">
+        </label>
+        <br>
+        <label>
+            <input class="inputfield req" name="star" placeholder="Single Star" type="text">
+        </label>
+        <br>
+        <label>
+            <input class="inputfield req" name="genre" placeholder="Single Genre" type="text">
+        </label>
+        <br>
+        <input class="button searchbtn" type="submit" value="Add Movie">
+    </form>
+</div>
+
+<h3>Tables</h3>
+<div class="table-details">
+
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="_dashboard.js"></script>
+
+</body>
+</html>

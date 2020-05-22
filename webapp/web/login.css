@@ -1,0 +1,153 @@
+html {
+    /*background: rgb(107,0,214);*/
+    background: linear-gradient(rgba(107,0,214,1), rgba(69,0,147,1)) fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+body {
+    background: transparent;
+}
+
+.topbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 0.5% 1% 0.5% 1%;
+    font-size: 15px;
+    background: black;
+}
+
+p {
+    margin-bottom: auto;
+    margin-top: auto;
+    text-align: center;
+    padding-right: 5px;
+    padding-left: 5px;
+    font-size: 25px;
+    font-weight: bolder;
+    background-color: gold;
+    color: black;
+    border-radius: 10%;
+    font-family: "Gill Sans", sans-serif;
+    width: 100px;
+}
+
+h2 {
+    color: gold;
+    margin-bottom: 3px;
+}
+
+h3 {
+    color: white;
+    font-size: 50px;
+    margin: 8% 20% 8% 20%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-family: "Gill Sans", sans-serif;
+    background: rgba(0, 0, 0, 0.1);
+}
+h3:hover {
+    background-color: rgba(52, 52, 52, 0.1);
+}
+
+
+.form-content {
+    /*display: inline-block;*/
+    margin-right: auto;
+    margin-left: auto;
+    width: 280px;
+    height: auto;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.67);
+    padding: 10px 30px 30px 30px;
+    -webkit-box-shadow: 0px 0px 21px 2px rgba(0,0,0,0.66);
+    -moz-box-shadow: 0px 0px 21px 2px rgba(0,0,0,0.66);
+    box-shadow: 0px 0px 21px 2px rgba(0,0,0,0.66);
+}
+
+.button {
+    box-shadow:inset 0px 1px 0px 0px #cf866c;
+    background: #d0451b linear-gradient(180deg, #d0451b, #bc3315);
+    border-radius:1px;
+    border:1px solid #942911;
+    display:inline-block;
+    cursor:pointer;
+    padding:6px 10px;
+    color: white;
+    width: 165px;
+    margin-top: 10px;
+}
+.button:hover {
+    background:linear-gradient(180deg, #bc3315, #d0451b);
+    background-color:#bc3315;
+    color: black;
+}
+.button:active {
+    position:relative;
+    top:1px;
+}
+
+/*.button:hover {*/
+/*     color: black;*/
+/*     animation: hop 1s;*/
+/*}*/
+
+label {
+    width: 160px;
+    padding-top: 6px;
+}
+
+.inputfield {
+    width: 100%;
+    outline: 0;
+    border-width: 0 0 1px;
+    border-color: #979394;
+    background: transparent;
+    color: white;
+}
+
+::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 18px;
+    font-style: italic;
+}
+
+#login_failed_message {
+    color: white;
+    text-align: center;
+}
+
+form {
+    text-align: center;
+}
+
+#recaptcha-element {
+    display: inline-block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    -webkit-box-shadow: 0px 0px 21px 2px rgba(0,0,0,0.66);
+    -moz-box-shadow: 0px 0px 21px 2px rgba(0,0,0,0.66);
+    box-shadow: 0px 0px 21px 2px rgba(0,0,0,0.66);
+    text-align: center;
+}
+
+.loginbody {
+    text-align: center;
+}
+
+.login-type-cb {
+    display: inline-flex;
+    color: gold;
+    width: 280px;
+}
+
+.login-type-cb>label {
+    float:left;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
